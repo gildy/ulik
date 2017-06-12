@@ -128,11 +128,23 @@ h1, h2, h3, h4, h5, h6, figure {
     display: inline-block;
     vertical-align: middle;
     float: none;
+    margin-top: 150px;
 }
 
 .row-features{
-    margin-bottom: 60px;
-    min-height: 300px;
+    margin-bottom: 120px;
+}
+
+.row-features:after {
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 50px;
+  width: 700px;
+  height: 2px;
+  margin: 0 auto;
+  background: #ececec;
+  content: '';
 }
 
 .ulik-nav {
