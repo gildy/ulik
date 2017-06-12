@@ -119,6 +119,21 @@ h1, h2, h3, h4, h5, h6, figure {
     background-color: #f7f7f7;
 }
 
+#ulik-features{
+    margin-top: 80px;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.row-features{
+    margin-bottom: 60px;
+    min-height: 300px;
+}
+
 .ulik-nav {
   margin: 0;
   padding: 0;
@@ -590,7 +605,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #ulik-blog,
 #ulik-contact,
 #ulik-footer {
-  padding: 7em 0;
+  padding: 5em 0 5em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
