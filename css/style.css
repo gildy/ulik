@@ -1,6 +1,8 @@
 @font-face {
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'Montserrat';
+	src: url('fonts/Montserrat-ExtraLight.otf') format('otf');
+	font-weight: 100;
+	font-style: normal;
 }
 /* =======================================================
 *
@@ -8,8 +10,8 @@
 *
 * ======================================================= */
 body {
-  font-family: 'Maven Pro', sans-serif;
-  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
   font-size: 16px;
   line-height: 1.7;
   color: #828282;
@@ -61,9 +63,15 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Open Sans", Arial, sans-serif;
-  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
   margin: 10px 0 20px 0;
+}
+
+.tagline{
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-weight: 100;
 }
 
 ::-webkit-selection {
@@ -147,6 +155,10 @@ h1, h2, h3, h4, h5, h6, figure {
   content: '';
 }
 
+.order{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
 .ulik-nav {
   margin: 0;
   padding: 0;
@@ -228,6 +240,8 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
 }
 .ulik-nav ul li a:hover, .ulik-nav ul li a:focus, .ulik-nav ul li a:active {
   color: #000 !important;
@@ -554,11 +568,12 @@ h1, h2, h3, h4, h5, h6, figure {
 #ulik-counter .display-tc h1,
 .ulik-cover .display-tc h1 {
   margin-bottom: 20px;
-  font-size: 36px;
+  font-size: 34px;
   line-height: 1.1;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 5px;
+  font-weight: 100;
 }
 @media screen and (max-width: 768px) {
   #ulik-header .display-tc h1,
@@ -1601,7 +1616,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Maven Pro", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 30px;
