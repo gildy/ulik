@@ -89,6 +89,12 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #38BAC7;
 }
 
+.arrow{
+    padding-top: 46px;
+    color: #C9D42C;
+    font-size: 48px;
+}
+
 #signUp {
     background-color: #38b9c6;
     border-color: blue;
@@ -101,6 +107,14 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #ulikLogoPng{
     height: 30px;
+}
+
+.order-title{
+    color: #39bac7;
+}
+
+.half-offset{
+    margin-left: 4.15151515%
 }
 
 .icon-benefit{
@@ -118,10 +132,21 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .how-to{
     text-align: center;
+    vertical-align: middle;
+    height: 300px;
 }
 
 .long-row{
     margin-top: 50px;
+}
+
+.white-text{
+    color:  white;
+}
+
+#firststep{
+    font-size: 25px;
+    letter-spacing: 2px;
 }
 
 #ulik-trainer{
@@ -143,7 +168,7 @@ h1, h2, h3, h4, h5, h6, figure {
     margin-bottom: 120px;
 }
 
-.row-features:after {
+.bergaris:after {
   position: relative;
   left: 0;
   right: 0;
@@ -158,6 +183,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .order{
     font-family: "Roboto", sans-serif;
     font-weight: 100;
+    font-size: 40px;
 }
 .ulik-nav {
   margin: 0;
@@ -167,7 +193,8 @@ h1, h2, h3, h4, h5, h6, figure {
   z-index: 1001;
 }
 .ulik-nav .top-menu {
-  padding: 28px 0;
+  padding-top: 10px;
+  padding-bottom: 15px;
   background-color: #eaeaea;
 }
 .ulik-nav .top {
@@ -203,7 +230,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .ulik-nav #ulik-logo {
   font-size: 24px;
-  margin: 0;
+  margin-top: -5px;
   padding: 0;
   text-transform: uppercase;
   font-weight: bold;
@@ -658,8 +685,8 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .services {
   padding: 25px;
-  margin-top: -10em;
-  margin-right: -2em;
+  margin-top: -14em;
+  height: 290px;
   background: #fff;
   -webkit-box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 0.43);
   -moz-box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 0.43);
@@ -685,7 +712,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 30px;
 }
 .services span img {
-  width: 60px;
+  height: 75px;
   margin: 0 auto;
 }
 .services h3 {
@@ -1103,6 +1130,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000;
   text-transform: uppercase;
   position: relative;
+  letter-spacing: 6px;
 }
 .ulik-heading h2:after {
   position: absolute;
@@ -1112,7 +1140,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 60px;
   height: 2px;
   margin: 0 auto;
-  background: #38BAC7;
+  background: transparent;
   content: '';
 }
 .ulik-heading p {
@@ -1190,16 +1218,18 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgb(56, 185, 198);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 #ulik-started h2 {
-  text-transform: uppercase;
   color: #fff;
   margin-bottom: 20px !important;
   line-height: 1.5em;
+}
+#bottom-graph{
+    max-width: 100%;
 }
 #ulik-started h2 span {
   font-weight: 100;
@@ -1210,7 +1240,9 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: 700;
 }
 #ulik-started p {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+  font-weight: 100;
 }
 #ulik-started .form-control {
   background: rgba(255, 255, 255, 0.2);
@@ -1242,10 +1274,9 @@ h1, h2, h3, h4, h5, h6, figure {
 #ulik-started .btn {
   height: 54px;
   border: none !important;
-  background: #38BAC7;
-  color: #fff;
+  background: #c9d42d;
+  color: #000;
   font-size: 16px;
-  text-transform: uppercase;
   font-weight: 400;
   padding-left: 50px;
   padding-right: 50px;
