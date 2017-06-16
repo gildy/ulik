@@ -14,7 +14,7 @@ body {
   font-weight: 100;
   font-size: 16px;
   line-height: 1.7;
-  color: #828282;
+  color: #8e8e8e;
   background: #fff;
 }
 
@@ -93,6 +93,13 @@ h1, h2, h3, h4, h5, h6, figure {
     padding-top: 46px;
     color: #C9D42C;
     font-size: 48px;
+}
+
+#email{
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 #signUp {
@@ -1245,9 +1252,9 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: 100;
 }
 #ulik-started .form-control {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgb(255, 255, 255);
   border: none !important;
-  color: #fff;
+  color: #4e4e4e;
   font-size: 16px !important;
   width: 100%;
   -webkit-transition: 0.5s;
@@ -1255,21 +1262,21 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: 0.5s;
 }
 #ulik-started .form-control::-webkit-input-placeholder {
-  color: #fff;
+  color: #ccc;
 }
 #ulik-started .form-control:-moz-placeholder {
   /* Firefox 18- */
-  color: #fff;
+  color: #ccc;
 }
 #ulik-started .form-control::-moz-placeholder {
   /* Firefox 19+ */
-  color: #fff;
+  color: #ccc;
 }
 #ulik-started .form-control:-ms-input-placeholder {
-  color: #fff;
+  color: #ccc;
 }
 #ulik-started .form-control:focus {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgb(255, 255, 255);
 }
 #ulik-started .btn {
   height: 54px;
@@ -1280,6 +1287,9 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: 400;
   padding-left: 50px;
   padding-right: 50px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  margin-left: -30px;
 }
 #ulik-started .form-inline .form-group {
   width: 100% !important;
@@ -1367,7 +1377,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 15px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgb(128, 128, 128);
 }
 #ulik-footer .ulik-footer-links {
   padding: 0;
@@ -1379,7 +1389,7 @@ h1, h2, h3, h4, h5, h6, figure {
   list-style: none;
 }
 #ulik-footer .ulik-footer-links li a {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(2, 2, 2, 0.5);
   text-decoration: none;
 }
 #ulik-footer .ulik-footer-links li a:hover {
@@ -1454,13 +1464,15 @@ h1, h2, h3, h4, h5, h6, figure {
 #ulik-offcanvas a:hover {
   color: rgba(255, 255, 255, 0.8);
 }
+#ulik-offcanvas #signUp {
+}
 #ulik-offcanvas ul {
   padding: 0;
   margin: 0;
 }
 #ulik-offcanvas ul li {
   padding: 0;
-  margin: 0;
+  margin-bottom: 20px;
   list-style: none;
 }
 #ulik-offcanvas ul li > ul {
@@ -1627,7 +1639,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .ulik-nav-toggle {
   position: absolute;
   right: 0px;
-  top: 26px;
+  top: 5px;
   z-index: 21;
   padding: 6px 0 0 0;
   display: block;
