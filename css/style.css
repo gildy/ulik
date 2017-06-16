@@ -147,6 +147,45 @@ h1, h2, h3, h4, h5, h6, figure {
     margin-top: 50px;
 }
 
+.uph-title h3{
+    font-weight: 100;
+    color: #636363;
+}
+
+.uph-title p{
+    font-size: 14px;
+}
+
+.ulik-product-feature h2{
+    font-style: italic;
+    font-family: "Open Sans";
+    color: #45beca;
+}
+.ulik-product-feature h3{
+    font-size: 20px;
+    color: #424242;
+}
+.ulik-product-feature h4{
+    text-transform: uppercase;
+    color: #a5a5a5;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 0px;
+}
+.ulik-product-feature h5{
+    font-family: "Open Sans";
+    line-height: 24px;
+    font-size: 16px;
+    color: #585858;
+}
+.ulik-product-feature p{
+    font-size: 14px;
+    width: 80%;
+}
+.ulik-pp{
+    padding-top: 100px;
+}
+
 .white-text{
     color:  white;
 }
@@ -168,7 +207,7 @@ h1, h2, h3, h4, h5, h6, figure {
     display: inline-block;
     vertical-align: middle;
     float: none;
-    margin-top: 150px;
+    margin-top: 120px;
 }
 
 .row-features{
@@ -451,6 +490,22 @@ h1, h2, h3, h4, h5, h6, figure {
   transform: scale(1.2);
 }
 
+#ulik-product-header{
+    padding-top: 80px;
+}
+
+.longbar{
+    background-color: #efefef;
+}
+.longbar-title{
+    font-weight: 400;
+    margin-top: -16px;
+}
+.uph-title{
+    margin-left: -128px;
+    margin-top: 100px;
+    text-align: center;
+}
 .ulik-cover {
   height: 700px;
   background-size: cover;
@@ -1389,7 +1444,7 @@ h1, h2, h3, h4, h5, h6, figure {
   list-style: none;
 }
 #ulik-footer .ulik-footer-links li a {
-  color: rgba(2, 2, 2, 0.5);
+  color: rgba(33, 33, 33, 0.5);
   text-decoration: none;
 }
 #ulik-footer .ulik-footer-links li a:hover {
